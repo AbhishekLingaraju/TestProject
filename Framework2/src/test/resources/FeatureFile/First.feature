@@ -16,7 +16,7 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@tag
+#@tag
 Feature: Basic functionality of selenium
 
   @tag1
