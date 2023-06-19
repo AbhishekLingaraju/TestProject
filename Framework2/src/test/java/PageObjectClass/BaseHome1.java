@@ -51,12 +51,14 @@ public class BaseHome1 extends BaseTest{
 		{
 		case "Outlook":		
 			driver.get("https://outlook.live.com/owa/");
-			driver.manage().window().maximize();
 			break;
 			
 		case "Web Table":
 			driver.get("https://demo.guru99.com/test/web-table-element.php");
-			driver.manage().window().maximize();
+			break;
+					
+		case "KaptureKM":
+			driver.get("https://kapturekm.com/");
 			break;
 			default:
 			throw exception;
